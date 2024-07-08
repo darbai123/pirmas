@@ -179,5 +179,8 @@ h1 > span {
     .logo{
         display: none;
     }
+        .name{
+        margin-left: 0;
+}
 }
 
