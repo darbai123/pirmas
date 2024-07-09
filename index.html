@@ -21,7 +21,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!--========== SWIPER CSS ==========-->
-    <!-- <link rel="stylesheet" href="swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--========== MAIN CSS ==========-->
     <link rel="stylesheet" href="style.css">
@@ -49,21 +49,82 @@
 
 
                 <div class="container">
-                    <div class="container__inside">
-                        <a href="" class="enter">Gallery / Gallerija</a>
+
+
+                   <div class="container__inside">
+                        <button data-modal-target="#modal"  class="enter"> Galerija</button>
                     </div>
+                        <div class="modal" id="modal">
+                            <div class="modal-header">
+                                <div class="title">Examples</div>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
+                                 Veritatis fuga quas explicabo
+                                 aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
+                                 quo quis quas nemo.
+                            </div>
+                        </div>
+                        <div  id="overlay"></div>
+
                     <div class="container__inside">
-                        <a href="" class="enter">Offers / Pasiūlymai</a>
+                        <button data-modal-target="#modal"  class="enter">Pasiūlymai</button>
+                    </div>
+                        <div class="modal" id="modal">
+                            <div class="modal-header">
+                                <div class="title">Examples</div>
+                                <button data-close-button class="close-button">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
+                                 Veritatis fuga quas explicabo
+                                 aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
+                                 quo quis quas nemo.
+                            </div>
+                        </div>
+                        <div  id="overlay"></div>
+
+                        <div class="container__inside">
+                            <button data-modal-target="#modal"  class="enter">Darbai</button>
+                        </div>
+                            <div class="modal" id="modal">
+                                <div class="modal-header">
+                                    <div class="title">Examples</div>
+                                    <button data-close-button class="close-button">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
+                                     Veritatis fuga quas explicabo
+                                     aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
+                                     quo quis quas nemo.
+                                </div>
+                            </div>
+                            <div  id="overlay"></div>
+    
+                        <div class="container__inside">
+                            <button data-modal-target="#modal"  class="enter">Kontaktai</button>
+                        </div>
+                            <div class="modal" id="modal">
+                                <div class="modal-header">
+                                    <div class="title">Examples</div>
+                                    <button data-close-button class="close-button">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
+                                     Veritatis fuga quas explicabo
+                                     aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
+                                     quo quis quas nemo.
+                                </div>
+                            </div>
+                            <div  id="overlay"></div>
                         
-                    </div>
-                    <div class="container__inside">
-                        <a href="" class="enter">Jobs / Darbai</a>
-                        
-                    </div>
-                    <div class="container__inside">
-                        <a href="" class="enter">Contacts / Kontaktai</a>
-                        
-                    </div>
+                    
+                    
+
+
+                    
+                    
                 </div>
          </div>
     </main>
@@ -73,14 +134,12 @@
 
 
 
-       <!--========== MIXITUP FILTER ==========-->
-       <!-- <script src="assets/js/mixitup.min.js"></script> -->
 
        <!--========== SWIPER JS ==========-->
-       <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+       <script src="swiper-bundle.min.js"></script>
    
        <!--========== MAIN JS ==========-->
-       <!-- <script src="assets/js/main.js"></script>
+       <script src="main.js"></script>
        <script src="https://kit.fontawesome.com/066f3cdf1b.js" crossorigin="anonymous"></script>
        <script>
            const scriptURL = 'https://script.google.com/macros/s/AKfycbxJQdeaPfT9aaR6o2b8IiGdSraynkC7c_ia0UOFvetrhdDG4pqeGDquHFdXkfsf4f1M0w/exec'
@@ -100,6 +159,6 @@
                })
                .catch(error => console.error('Error!', error.message))
            })
-         </script> -->
+         </script>
 </body>
 </html>
