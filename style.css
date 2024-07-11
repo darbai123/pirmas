@@ -601,6 +601,10 @@ margin: 0;
     .offer p {  
         font-size: 25px;
       }
+      .buttons button {
+       position: relative;
+       top: 100px;
+      }
 
 }
 
