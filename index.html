@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/066f3cdf1b.js" crossorigin="anonymous"></script>
     
 
-    
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
     <link rel="manifest" href="image/site.webmanifest">
-    
     
 
 
@@ -22,9 +21,6 @@
     <!--========== BOXICONS ==========-->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-    <!--========== SWIPER CSS ==========-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
     <!--========== MAIN CSS ==========-->
     <link rel="stylesheet" href="style.css">
 
@@ -32,135 +28,237 @@
     <title>WPC</title>
 </head>
 <body>
+ 
+
     <main>
-         <div class="home"> 
-                <div class="text text1"> 
-                    <h1 class="name"><span class="raide">W</span>eb <span class="raide">P</span>ages <span class="raide">C</span>reation</h1>
-                        <div class="nav__logo logo">
-                            <a href="index.html" class="nav__logo-text">WPC</a>
-                        </div> 
-                </div>
-
-                <div class="text text2"> 
-                    <h1 class="name"><span class="raide">I</span>nterneto <span class="raide">P</span>uslapių <span class="raide">K</span>ūrimas</h1>
-                        <div class="nav__logoo logo">
-                            <a href="index.html" class="nav__logoo-text">IPK</a>
-                        </div>
-                </div> 
-
+        <div class="home"> 
+               <div class="text text1"> 
+                   <h1 class="name"><span class="raide">W</span>eb <span class="raide">P</span>ages <span class="raide">C</span>reation</h1>
+                       <div class="nav__logo logo">
+                           <a href="index.html" class="nav__logo-text">WPC</a>
+                       </div> 
+               </div>
+               <div class="text text2"> 
+                   <h1 class="name"><span class="raide">I</span>nterneto <span class="raide">P</span>uslapių <span class="raide">K</span>ūrimas</h1>
+                       <div class="nav__logoo logo">
+                           <a href="index.html" class="nav__logoo-text">IPK</a>
+                       </div>
+               </div> 
 
 
-                <div class="container">
+
+               <div class="container">
 
 
-                   <div class="container__inside">
-                        <button data-modal-target="#modal"  class="enter"> Galerija</button>
-                    </div>
-                        <div class="modal" id="modal">
-                            <div class="modal-header">
-                                <div class="title">Examples</div>
-                                <button data-close-button class="close-button">&times;</button>
+<!-- -----------------------------------------GALERIJA------------------------------------------ -->
+
+
+                            <div class="container__inside">
+                                <button data-modal-target="#modal-galerija"  class="enter">Galerija</button>
                             </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
-                                 Veritatis fuga quas explicabo
-                                 aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
-                                 quo quis quas nemo.
-                            </div>
-                        </div>
-                        <div  id="overlay"></div>
-
-                    <div class="container__inside">
-                        <button data-modal-target="#modal"  class="enter">Pasiūlymai</button>
-                    </div>
-                        <div class="modal" id="modal">
-                            <div class="modal-header">
-                                <div class="title">Examples</div>
-                                <button data-close-button class="close-button">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
-                                 Veritatis fuga quas explicabo
-                                 aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
-                                 quo quis quas nemo.
-                            </div>
-                        </div>
-                        <div  id="overlay"></div>
-
-                        <div class="container__inside">
-                            <button data-modal-target="#modal"  class="enter">Darbai</button>
-                        </div>
-                            <div class="modal" id="modal">
+                            <div class="modal" id="modal-galerija">
                                 <div class="modal-header">
-                                    <div class="title">Examples</div>
+                                    <div class="title">Turimi pavyzdžiai</div>
                                     <button data-close-button class="close-button">&times;</button>
                                 </div>
                                 <div class="modal-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
-                                     Veritatis fuga quas explicabo
-                                     aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
-                                     quo quis quas nemo.
+                                    <div class="slider">
+                                        <div class="buttons">
+                                            <button id="prev"><</button>
+                                            <button id="next">></button>
+                                        </div>
+                                        <div class="list">
+                                            <div class="item">
+                                                <img src="image/galerija/auto1.png" >
+                                            </div>
+                                            <div class="item">
+                                                <img src="image/galerija/pica1.jpg" >
+                                            </div>
+                                            <div class="item">
+                                                <img src="image/galerija/pirtis1.jpg" >
+                                            </div>
+                                            <div class="item">
+                                                <img src="image/galerija/login1.jpg" >
+                                            </div>
+                                            <div class="item">
+                                                <img src="image/galerija/servisas1.jpg" >
+                                            </div>
+                                        </div>
+                                        <ul class="dots">
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>      
+                                </div>
+                                
+                                
+                            </div>
+                             <div  id="overlay"></div>
+
+
+<!-- -----------------------------------------PASIULYMAI------------------------------------------ -->
+
+
+
+                             <div class="container__inside">
+                                <button data-modal-target="#modal-pasiulymai"  class="enter">Pasiūlymai</button>
+                            </div>
+                            <div class="modal" id="modal-pasiulymai">
+                                <div class="modal-header">
+                                    <div class="title">Kainoraštis</div>
+                                    <button data-close-button class="close-button">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <section class="offers">
+                                        <img src="image/galerija/imagesss.png" alt="" class="symbols">
+                                        <article class="offer">
+                                            <p class="flavor">Operacinės sistemos sutvarkymas</p><p class="price">nuo 30€</p>
+                                        </article>
+                                        <hr>
+                                        <article class="offer">
+                                            <p class="flavor">Įrangos surinkimas</p><p class="price">nuo 30€</p>
+                                        </article>
+                                        <hr>
+    
+                                        <article class="offer">
+                                            <p class="flavor">Vieno puslapio tinklalapis</p><p class="price">50€</p>
+                                        </article>
+                                        <hr>
+    
+                                        <article class="offer">
+                                            <p class="flavor extra1">Kiti klausimai</p><p class="price extra2">pagal sutarimą</p>
+                                        </article>
+                                        
+                                    </section>
                                 </div>
                             </div>
                             <div  id="overlay"></div>
     
-                        <div class="container__inside">
-                            <button data-modal-target="#modal"  class="enter">Kontaktai</button>
-                        </div>
-                            <div class="modal" id="modal">
+
+<!-- -----------------------------------------DARBAI------------------------------------------ -->
+
+
+
+
+                            <div class="container__inside">
+                                <button data-modal-target="#modal-darbai"  class="enter">Darbai</button>
+                            </div>
+                            <div class="modal" id="modal-darbai">
                                 <div class="modal-header">
-                                    <div class="title">Examples</div>
+                                    <div class="title">Oficialiai sukurtos svetainės</div>
                                     <button data-close-button class="close-button">&times;</button>
                                 </div>
                                 <div class="modal-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dicta consectetur saepe porro.
-                                     Veritatis fuga quas explicabo
-                                     aperiam eveniet vel dolores reprehenderit tenetur accusantium? Consequatur dolores 
-                                     quo quis quas nemo.
+    
+                                    <div id="slider">
+                                        <input type="radio" name="slider" id="slide1" checked>
+                                        <input type="radio" name="slider" id="slide2">
+                                        <input type="radio" name="slider" id="slide3">
+                                        <input type="radio" name="slider" id="slide4">
+                                    
+                                        <div id="slides">
+                                            <div id="overflow">
+                                                <div class="inner">
+                                                    <div class="slide slide_1">
+                                                        <div class="slide-content">
+                                                            <a href="https://www.motormax.lt" target="_blank" class="projects">
+                                                                <i class="fa-solid fa-share"></i> MotorMax
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="slide slide_2">
+                                                        <div class="slide-content">
+                                                            <h2>RUOŠIAMA</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="slide slide_3">
+                                                        <div class="slide-content">
+                                                            <h2>RUOŠIAMA</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="slide slide_4">
+                                                        <div class="slide-content">
+                                                            <h2>RUOŠIAMA</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="controls">
+                                            <label for="slide1"></label>
+                                            <label for="slide2"></label>
+                                            <label for="slide3"></label>
+                                            <label for="slide4"></label>
+                                        </div>
+                                        <div id="bullets">
+                                            <label for="slide1"></label>
+                                            <label for="slide2"></label>
+                                            <label for="slide3"></label>
+                                            <label for="slide4"></label>
+                                        </div>
+                                    </div>
+                                    
+    
                                 </div>
                             </div>
                             <div  id="overlay"></div>
-                        
-                    
-                    
 
 
-                    
-                    
+<!-- -----------------------------------------KONTAKTAI------------------------------------------ -->
+
+
+
+
+                            <div class="container__inside">
+                                <button data-modal-target="#modal-kontaktai"  class="enter">Kontaktai</button>
+                            </div>
+                            <div class="modal" id="modal-kontaktai">
+                                <div class="modal-header">
+                                    <div class="title">Susisiekime</div>
+                                    <button data-close-button class="close-button">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <section class="offers">
+                                        <img src="image/galerija/arrowww.png" alt="" class="symbols1">
+                                        <article class="offer">
+                                            <p class="flavor extra3"><i class="fa-solid fa-phone"></i></p><p class="price extra4">+370 6 99 99999</p>
+                                        </article>
+                                        <hr>
+                                        <article class="offer">
+                                            <p class="flavor extra3"><i class="fa-solid fa-envelope"></i></p><p class="price extra4">Aurimo.darbai123@gmail.com</p>
+                                        </article>
+                                        <hr>
+    
+                                        <article class="offer">
+                                            <p class="flavor extra3"><i class="fa-brands fa-square-facebook"></i></p><p class="price extra4">Aurimo Puslapiai</p>
+                                        </article>
+                                        <hr>
+    
+                                        <article class="offer">
+                                            <p class="flavor  extra3"><i class="fa-brands fa-telegram"></i></p><p class="price  extra4">+370 6 99 99999</p>
+                                        </article>
+                                        
+                                    </section>
+                                </div>
+                            </div>
+                            <div  id="overlay"></div>
+
+
+
+
                 </div>
-         </div>
-    </main>
+             </div>
+        </div>
+   </main>
 
 
 
 
-
-
-
-       <!--========== SWIPER JS ==========-->
-       <script src="swiper-bundle.min.js"></script>
-   
        <!--========== MAIN JS ==========-->
        <script src="main.js"></script>
-       <script src="https://kit.fontawesome.com/066f3cdf1b.js" crossorigin="anonymous"></script>
-       <script>
-           const scriptURL = 'https://script.google.com/macros/s/AKfycbxJQdeaPfT9aaR6o2b8IiGdSraynkC7c_ia0UOFvetrhdDG4pqeGDquHFdXkfsf4f1M0w/exec'
-           const form = document.forms['kontaktai']
-           const msg = document.getElementById("msg")
-   
-           form.addEventListener('submit', e => {
-             e.preventDefault()
-             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-               .then(response => {
-                   msg.innerHTML = "Žinutė išsiūsta sėkmingai"
-                   setTimeout(function(){
-                       msg.innerHTML = ""
-                   },5000)
-                   form.reset()
-                   
-               })
-               .catch(error => console.error('Error!', error.message))
-           })
-         </script>
+     
 </body>
 </html>
