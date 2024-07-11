@@ -58,7 +58,7 @@ prev.addEventListener('click', function () {
     reloadSlider();
 });
 
-let refreshSlider = setInterval(() => { next.click() }, 10000); // Pakeisti slankiklio atnaujinimo dažnumą pagal poreikį
+let refreshSlider = setInterval(() => { next.click() }, 6000); // Pakeisti slankiklio atnaujinimo dažnumą pagal poreikį
 
 function reloadSlider() {
     let checkLeft = -active * itemWidth; // Pritaikome vieno elemento plotį
