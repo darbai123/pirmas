@@ -120,15 +120,20 @@ h1 > span {
   
     .name, .logo{
         display: inline-block;
+        margin-top: 5px;
     }
     .text{
         display: flex;
         justify-content: center;
         align-items: center;
+      
     }
     .name{
-            margin-left: 70px;
+        margin-left: 70px;
     }
+ 
+
+    
     
 
 
@@ -137,7 +142,7 @@ h1 > span {
 
         
 .container{
-    margin-top: 15px;
+    margin: 15px;
     display: grid;
      grid-template-columns: repeat(2, 1fr);
      grid-gap: 1em;   
@@ -605,7 +610,6 @@ margin: 0;
        position: relative;
        top: 100px;
       }
-
 }
 
 @media(max-width: 600px) {
